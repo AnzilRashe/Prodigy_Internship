@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet"> <!-- Add Google Font -->
+</head>
+<body>
+    <nav id="gaming-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#games">Cars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home">
+            <h1 class="section-title">HOME</h1>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/backgrounds/BG1.jpg" alt="Game 1">
+                    <img src="assets/backgrounds/BG2.jpg" alt="Game 2">
+                    <img src="assets/backgrounds/BG3.jpg" alt="Game 3">
+                    <img src="assets/backgrounds/BG4.jpg" alt="Game 4">
+                    <img src="assets/backgrounds/BG5.jpg" alt="Game 5">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="games">
+            <h1 class="section-title">CARS</h1>
+            <div class="game-grid">
+                <div class="game-block">
+                    <h2>ROLLS ROYCE</h2>
+                    <img src="assets/gamess/C1.jpg" alt="Call of Duty" class="game-image" data-img-src="g1.jpg">
+                    <p>Rolls-Royce represents the pinnacle of handcrafted luxury. Models like the Phantom, Ghost, and Cullinan are designed for those who demand the finest materials, comfort, and exclusivity.</p>
+                </div>
+                <div class="game-block">
+                    <h2>AUDI</h2>
+                    <img src="assets/gamess/C2.jpg" alt="Sins of a Solar Empire II" class="game-image" data-img-src="g2.jpg">
+                    <p>Audi is a German automobile manufacturer known for its blend of luxury, cutting-edge technology, and high-performance engineering</p>
+                </div>
+                <div class="game-block">
+                    <h2>BMW</h2>
+                    <img src="assets/gamess/C3.jpg" alt="Dead by Daylight" class="game-image" data-img-src="g3.jpg">
+                    <p>BMW is synonymous with performance, precision, and luxury. Whether it's the agile M Series or the refined 7 Series, BMW vehicles offer a perfect balance of power and elegance.</p>
+                </div>
+                <div class="game-block">
+                    <h2>FERRARI</h2>
+                    <img src="assets/gamess/C4.jpg" alt="FINAL FANTASY XIV Online" class="game-image" data-img-src="g4.jpg">
+                    <p>Ferrari is a symbol of speed, power, and exclusivity. The Italian marque is known for producing some of the most legendary sports cars, including the Ferrari 488, SF90 Stradale, and LaFerrari.</p>
+                </div>
+                <div class="game-block">
+                    <h2>MERCEDES BENZ</h2>
+                    <img src="assets/gamess/C5.jpg" alt="Once Human" class="game-image" data-img-src="g5.jpg">
+                    <p> Mercedes-Benz is known for blending luxury with advanced technology. From the S-Class flagship sedan to the powerful AMG lineup, every Mercedes vehicle reflects sophistication and top-tier engineering.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="section-title">CONTACT</h1>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/anzil-rashe-bbb669299/" target="_blank">
+                    <img src="assets/miscs/linkedinicon.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://github.com/AnzilRashe" target="_blank">
+                    <img src="assets/miscs/githubicon.png" alt="GitHub" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <div id="image-popup" class="popup">
+        <span class="close">&times;</span>
+        <img class="popup-content" id="popup-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
